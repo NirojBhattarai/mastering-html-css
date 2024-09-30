@@ -277,6 +277,25 @@ Multimedia elements in HTML are elements used to include and handle different ty
 - `<object>`: Embeds external objects (including multimedia and other documents).
 - `<iframe>`: Used to embed external web content such as videos or other pages.
 
+Example:
+
+```css
+<body>
+    <h1>Multimedia Elements</h1>
+    <h2>Image</h2>
+    <img src="https://via.placeholder.com/150" alt="Sample Image"
+    <h2>Audio</h2>
+    <audio controls>
+        <source src="path/to/audio.mp3" type="audio/mpeg">
+    </audio>
+    <h2>Video</h2>
+    <video width="250" controls>
+    <source src="path/to/video.mp4" type="video/mp4"
+    <h2>Canvas</h2>
+    <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000;"></canvas>
+  </body>
+```
+
 ---
 
 ### 🔹 **ARIA Elements**
