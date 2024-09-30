@@ -130,13 +130,19 @@ The `<input>` element allows users to enter data in various ways, depending on t
 - `radio`: Allows selection of one option from a group.
 - `submit`: Allows submission of the form data.
 
+---
+
 ### 🔹 **Select**
 
 The `<select>`element is a dropdown list that allows users to choose one or more options where each option is represented by `<option>` tag, `multiple` attribute is used to select multiple options.
 
+---
+
 ### 🔹 **Button**
 
 The `<button>`element is used to create clikable buttons. It can be used to submit forms or trigger JavaScript actions. It uses `type` attribute to specifies the button function.
+
+---
 
 ### 🔹 **Semantic Tags**
 
@@ -154,6 +160,8 @@ HTML Semantic Tags are elements that give both the browser and developers better
 - `<address>`: Contains information related to location or address.
 - `<time>`: Represent a specific time or date.
 
+---
+
 ### 🔹 **Multimedia Element**
 
 Multimedia elements in HTML are elements used to include and handle different types of media, such as `<audio>`, `<video>`, and `<img>`, within web pages. These elements enhance the user experience by allowing content creators to embed rich media like pictures, music, and videos.
@@ -168,6 +176,8 @@ Multimedia elements in HTML are elements used to include and handle different ty
 - `<embed>`: Used for embedding external content (like Flash, PDFs, etc.) into a webpage.
 - `<object>`: Embeds external objects (including multimedia and other documents).
 - `<iframe>`: Used to embed external web content such as videos or other pages.
+
+---
 
 ### 🔹 **ARIA Elements**
 
