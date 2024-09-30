@@ -22,6 +22,22 @@ Metadata is a set of data that describes and provides information about other da
   - Author of the document
   - Viewport settings
 
+Example:
+
+```html
+<head>
+  <meta charset="UTF-8" />
+  <meta
+    name="description"
+    content="A comprehensive guide to mastering HTML and CSS."
+  />
+  <meta name="keywords" content="HTML, CSS, Web Development" />
+  <meta name="author" content="Neeraj Bhattarai" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mastering HTML and CSS</title>
+</head>
+```
+
 ---
 
 ### 🔹 **What is Emmet?**
@@ -221,6 +237,28 @@ HTML Semantic Tags are elements that give both the browser and developers better
 - `<figure>` and `<figurecaption>`: Used for a figure with a caption.
 - `<address>`: Contains information related to location or address.
 - `<time>`: Represent a specific time or date.
+
+Example:
+
+```html
+<article>
+  <header>
+    <h1>Understanding HTML and CSS</h1>
+    <p>
+      By Neeraj Bhattarai |
+      <time datetime="2024-09-30">September 30, 2024</time>
+    </p>
+  </header>
+  <section>
+    <p>HTML and CSS are fundamental technologies for building web pages...</p>
+  </section>
+  <footer>
+    <address>
+      Contact: <a href="mailto:neeraj@example.com">neeraj@example.com</a>
+    </address>
+  </footer>
+</article>
+```
 
 ---
 
