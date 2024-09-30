@@ -138,4 +138,35 @@ The `<select>`element is a dropdown list that allows users to choose one or more
 
 The `<button>`element is used to create clikable buttons. It can be used to submit forms or trigger JavaScript actions. It uses `type` attribute to specifies the button function.
 
+### 🔹 **Semantic Tags**
+
+HTML Semantic Tags are elements that give both the browser and developers better insight into the structure and content of web page.
+
+#### Common HTML Semantic Tags:
+
+- `<header>`: Represents introductory part and usually contains navigation links or headings.
+- `<nav>`: Defines section of navigation links.
+- `<section>`: Represent distinct group of contents usually with heading.
+- `<article>`: Contains independent, self-contained content like blog post or news article.
+- `<aside>`: Used for content that is related to the main content but placed in a sidebar or as a extra content.
+- `<footer>`: Defines the footer for a page or section, typically containing metadata, trademark logo, copyright info, or links.
+- `<figure>` and `<figurecaption>`: Used for a figure with a caption.
+- `<address>`: Contains information related to location or address.
+- `<time>`: Represent a specific time or date.
+
+### 🔹 **Multimedia Element**
+
+Multimedia elements in HTML are elements used to include and handle different types of media, such as `<audio>`, `<video>`, and `<img>`, within web pages. These elements enhance the user experience by allowing content creators to embed rich media like pictures, music, and videos.
+
+#### Types of Multimedia Elements in HTML:
+
+- `<img>`: Embeds an image into the web page.
+- `<audio>`: Embeds an audio file with controls like play, pause, etc.
+- `<video>`: Embeds a video file with optional controls.
+- `<canvas>`: A drawable region, useful for rendering shapes, graphs, or animations.
+- `<svg>`: Embeds SVG graphics within an HTML document.
+- `<embed>`: Used for embedding external content (like Flash, PDFs, etc.) into a webpage.
+- `<object>`: Embeds external objects (including multimedia and other documents).
+- `<iframe>`: Used to embed external web content such as videos or other pages.
+
 ---
