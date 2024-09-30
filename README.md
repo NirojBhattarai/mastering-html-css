@@ -1,6 +1,6 @@
-# Mastering HTML
+# Mastering HTML and CSS
 
-**Deep-Diving into HTML** and grasping the core concepts and functionalities of this powerful markup language. While HTML itself isn't that complex, we will explore both basic and advanced concepts to solidify our understanding.
+**Deep-Diving into HTML and CSS** and grasping the core concepts and functionalities of this powerful markup language and Style Sheet Language. While HTML and CSS itself isn't that complex, we will explore both basic and advanced concepts to solidify our understanding.
 
 ## HTML: HyperText Markup Language
 
@@ -100,6 +100,29 @@ A block element takes up the full width available and starts on a new line by de
 
 Table elements represent tabular data, which is two-dimensional, consisting of rows and columns of cells. The table is defined using the `<table>` tag. Rows are defined with `<tr>`, and columns are defined using `<th>` for headers and `<td>` for data cells. The main body of the table is enclosed within the `<tbody>` element, which helps the browser create the intended table structure.
 
+Example:
+
+```html
+<table>
+  <thead>
+    <tr>
+      <th>Header 1</th>
+      <th>Header 2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Data 1</td>
+      <td>Data 2</td>
+    </tr>
+    <tr>
+      <td>Data 3</td>
+      <td>Data 4</td>
+    </tr>
+  </tbody>
+</table>
+```
+
 ---
 
 ### 🔹 **Forms**
@@ -109,11 +132,27 @@ Forms are sections of a document that contain interactive controls for submittin
 - `action`: Specifies the URL where the form data will be sent.
 - `method`: Specifies the HTTP method (GET or POST) used to send form data.
 
+Example:
+
+```html
+<form action="/submit" method="POST">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" />
+  <input type="submit" value="Submit" />
+</form>
+```
+
 ---
 
 ### 🔹 **Label**
 
 The `<label>` element associates text with a specific form control, improving accessibility by helping screen readers interpret form controls. It uses the `for` attribute to link with a specific form control.
+
+Example:
+
+```html
+<label for="email">Email:</label> <input type="email" id="email" name="email" />
+```
 
 ---
 
@@ -130,17 +169,40 @@ The `<input>` element allows users to enter data in various ways, depending on t
 - `radio`: Allows selection of one option from a group.
 - `submit`: Allows submission of the form data.
 
+Example:
+
+```html
+<input type="text" placeholder="Enter your name" />
+<input type="checkbox" id="subscribe" name="subscribe" />
+<label for="subscribe">Subscribe to newsletter</label>
+```
+
 ---
 
 ### 🔹 **Select**
 
 The `<select>`element is a dropdown list that allows users to choose one or more options where each option is represented by `<option>` tag, `multiple` attribute is used to select multiple options.
 
+Example:
+
+```html
+<select multiple>
+  <option value="option1">Option 1</option>
+  <option value="option2">Option 2</option>
+</select>
+```
+
 ---
 
 ### 🔹 **Button**
 
 The `<button>`element is used to create clikable buttons. It can be used to submit forms or trigger JavaScript actions. It uses `type` attribute to specifies the button function.
+
+Example:
+
+```html
+<button type="button">Click Me</button>
+```
 
 ---
 
@@ -193,5 +255,181 @@ ARIA Roles defines what an element is or how it behaves. For example button, ale
 - `role="alert"`: Marks an element as an important alert that needs immediate attention.
 - `role="main"`: Defines the main content of a document.
 - `role="navigation"`: Defines a group of navigational links.
+
+Example:
+
+```html
+<div role="alert">Your session is about to expire!</div>
+```
+
+---
+
+## CSS: Cascading Style Sheet
+
+Cascading Style Sheets is a style sheet language used for specifying the presentation and styling of a document written in a markup language such as HTML or XML.
+
+--
+
+## Key Concepts
+
+### 🔹 **CSS Selectors**
+
+CSS Selectors are used to target the HTML elements on our webpages that we want to style.
+
+#### Common Type of CSS Selectors:
+
+**Universal Selector:**
+
+Universal Selector selects all elements.
+
+Example:
+
+```css
+* {
+  margin: 0;
+  padding: 0;
+}
+```
+
+---
+
+**Type Selectors:**
+
+The CSS type selector matches elements by node name. In other words, it selects all elements of the given type within a document.
+
+Example:
+
+```css
+p {
+  font-size: 16px;
+}
+```
+
+---
+
+**Class Selector:**
+
+Selects a name with specified class.
+
+Example:
+
+```css
+.btn {
+  background-color: blue;
+  color: white;
+}
+```
+
+---
+
+**Id Selector:**
+
+Selects a single element with a specified ID.
+
+Example:
+
+```css
+#header {
+  background-color: gray;
+}
+```
+
+---
+
+**Atribute Selector:**
+
+Attribute selectors allows us to select elements based on their attributes.
+
+Example:
+
+```css
+input[type="text"] {
+  border: 1px solid black;
+}
+```
+
+---
+
+**Descendant Selector:**
+
+Selects all elements that are descendants of a specified element.
+
+Example:
+
+```css
+div p {
+  color: red;
+}
+```
+
+---
+
+**Child Selector**
+
+Selects all elements that are direct children of a specified element.
+
+Example:
+
+```css
+ul > li {
+  list-style-type: square;
+}
+```
+
+---
+
+**Adjacent Sibling Selector**
+
+Selects an element that is immediately preceded by a specified element.
+
+Example:
+
+```css
+h1 + p {
+  margin-top: 0;
+}
+```
+
+---
+
+**General Sibling Selector**
+
+Selects all elements that are siblings of a specified element.
+
+Example:
+
+```css
+h1 ~ p {
+  color: green;
+}
+```
+
+---
+
+**Pseudo-Classes**
+
+Pseudo-classes are used to define the special state of an element.
+
+Example:
+
+```css
+a:hover {
+  color: red;
+}
+```
+
+---
+
+**Pseudo-Elements**
+
+Pseudo-elements are used to style a specific part of an element.
+
+Example:
+
+```css
+p::first-line {
+  font-weight: bold;
+}
+```
 
 ---
