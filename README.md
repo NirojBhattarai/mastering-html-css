@@ -471,3 +471,51 @@ p::first-line {
 ```
 
 ---
+
+### 🔹 **Flexbox**
+
+Flexbox is a one-dimensional layout model that allows us to design complex layouts easily. It is particularly useful for aligning items along a row or column.
+
+Example:
+
+```css
+.container {
+  display: flex;
+  justify-content: space-between; /* Align items with space between */
+  align-items: center; /* Center items vertically */
+}
+```
+
+---
+
+### 🔹 **Grid**
+
+CSS Grid Layout is a two-dimensional layout system that allows us to create complex layouts using rows and columns.
+
+Example:
+
+```css
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Create three equal columns */
+  grid-gap: 10px; /* Space between grid items */
+}
+```
+
+---
+
+### 🔹 **Media Queries**
+
+Media queries are a powerful feature in CSS that allows you to apply styles based on the viewport size, making your web pages responsive.
+
+Example:
+
+```css
+@media (max-width: 600px) {
+  body {
+    background-color: lightblue; /* Change background color for small screens */
+  }
+}
+```
+
+---
