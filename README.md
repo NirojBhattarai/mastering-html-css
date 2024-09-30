@@ -169,4 +169,19 @@ Multimedia elements in HTML are elements used to include and handle different ty
 - `<object>`: Embeds external objects (including multimedia and other documents).
 - `<iframe>`: Used to embed external web content such as videos or other pages.
 
+### 🔹 **ARIA Elements**
+
+ARIA (Accessible Rich Internet Applications) elements in HTML are attributes that help improve the accessibility of web content, especially for users who rely on assistive technologies such as screen readers. These attributes provide additional information about the structure, behavior, and functionality of web elements that might not be easily understood by such tools.
+
+#### **ARIA Roles**
+
+ARIA Roles defines what an element is or how it behaves. For example button, alert, navigation, etc. The role helps assistive technologies understand the purpose of the element.
+
+##### Common ARIA Roles:
+
+- `role="button"`: It indicates that an elementb behaves like a button.
+- `role="alert"`: Marks an element as an important alert that needs immediate attention.
+- `role="main"`: Defines the main content of a document.
+- `role="navigation"`: Defines a group of navigational links.
+
 ---
