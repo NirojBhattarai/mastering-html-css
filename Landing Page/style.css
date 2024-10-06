@@ -15,11 +15,12 @@ body {
 }
 
 .nav_title {
-  color: #fdfdfd;
+  color: #acc2ff;
   font-weight: bold;
 }
 
 .main_navbar a {
+  align-items: center;
   text-decoration: none;
   color: #fff;
   position: relative;
@@ -44,7 +45,7 @@ body {
 }
 
 .login_btn {
-  background-color: #0404e4;
+  background-color: #4e0b8e;
   color: #fff;
   border: none;
   padding: 8px 16px;
@@ -54,7 +55,7 @@ body {
 }
 
 .login_btn:hover {
-  background-color: #000095;
+  background-color: #34065e;
   color: #fff;
 }
 
